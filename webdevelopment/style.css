@@ -1,4 +1,7 @@
-h1{color: #5D89BA;
-   font-size: 36px;}
+h1{color: #5D89BA;font-size: 36px;}
 p{color: #800020;
     font-size: 18px;}
+a{padding: 5px; border: 1px solid #800020;background-color: #800020; border-radius: 5px; color: white; text-decoration: none;}
+h2{color: #5D89BA;font-size: 24px;}
+h3{color: #5D89BA;font-size: 24px;}
+h4{color: #5D89BA;font-size: 24px;}
