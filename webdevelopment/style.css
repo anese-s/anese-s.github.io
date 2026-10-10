@@ -17,8 +17,11 @@ h3{color: #5D89BA;font-size: 24px;}
 h4{color: #5D89BA;font-size: 24px;}
 /* Hero Section */
 .hero {
-    background-color: #F2F5F9;
-    padding: 60px 40px;
+background-image: url("herobackground.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 40px;
     text-align: center;
 }
 
