@@ -49,3 +49,12 @@ blockquote {
     padding: 5px;;
     color: #800020;
 }
+
+.education-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+strong {
+    color: #5D89BA;
+    text-decoration: underline;
+}
