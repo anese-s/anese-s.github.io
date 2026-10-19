@@ -3,21 +3,33 @@ ul {
     gap: 20px;
     list-style-type: none;
     padding: 0;
+    font-family: "Marko One", serif;
 }
-h1{color: #5D89BA;font-size: 36px;}
-p{color: #800020;
-    font-size: 18px;
-    margin-right: 200px;
-    text-align: justify;
+p{
+  font-family: "Marko One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1, h2, h3, h4 {
+  font-family: "Chango", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-a{padding: 5px; border: 1px solid #800020;background-color: #800020; border-radius: 5px; color: white; text-decoration: none;}
+h1{color: #062E4B;font-size: 36px;}
+p{color: #800000;
+    font-size: 18px;
+    margin-right: 200px;
+    text-align: left;
+}
+
+a{padding: 5px; border: 1px solid #5D89BA;background-color: #5D89BA; border-radius: 5px; color: #FAF7ED; text-decoration: none;}
 h2{color: #5D89BA;font-size: 24px;}
 h3{color: #5D89BA;font-size: 24px;}
 h4{color: #5D89BA;font-size: 24px;}
 /* Hero Section */
 .hero {
-background-image: url("herobackground.jpeg");
+    background-image: url("background.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,6 +42,7 @@ background-image: url("herobackground.jpeg");
     display: inline-block;
     padding: 12px 24px;
     margin-top: 15px;
+    font-family: "Marko One", serif;
 }
 
 /* Hover Effect */
@@ -45,11 +58,11 @@ background-image: url("herobackground.jpeg");
     text-align: justify;
 }
 blockquote {
+    font-family: "Marko One", serif;
     margin: 20px;
-    padding: 5px;;
-    color: #800020;
+    padding: 5px;
+    color: #8B0000;
 }
-
 .education-list {
     list-style-type: disc;
     padding-left: 20px;
@@ -57,4 +70,9 @@ blockquote {
 strong {
     color: #5D89BA;
     text-decoration: underline;
+}
+footer {
+   color: #062E4B;
+    font-family: "Marko One", serif;
+    text-align: left;
 }
