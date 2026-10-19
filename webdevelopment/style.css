@@ -10,7 +10,7 @@ p{
   font-weight: 400;
   font-style: normal;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Chango", serif;
   font-weight: 400;
   font-style: normal;
@@ -27,6 +27,7 @@ a{padding: 5px; border: 1px solid #5D89BA;background-color: #5D89BA; border-radi
 h2{color: #5D89BA;font-size: 24px;}
 h3{color: #5D89BA;font-size: 24px;}
 h4{color: #5D89BA;font-size: 24px;}
+h5{color: #5D89BA;font-size: 24px;}
 /* Hero Section */
 .hero {
     background-image: url("background.jpeg");
@@ -75,4 +76,28 @@ footer {
    color: #062E4B;
     font-family: "Marko One", serif;
     text-align: left;
+}
+/* Reflection Page - Box Model */
+
+.reflection-box {
+    border: 2px solid #800020;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Reflection Page - Pseudo-elements */
+
+.first-paragraph::first-letter {
+    font-size: 36px;
+    color: #800020;
+    font-weight: bold;
+}
+
+.second-paragraph,.third-paragraph,.fourth-paragraph {
+    font-size: 18px;
+    text-indent: 30px;
+}
+.reflection-box p {
+    margin-right: 0;
 }
