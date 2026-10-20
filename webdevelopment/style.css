@@ -54,7 +54,7 @@ h5{color: #5D89BA;font-size: 24px;}
 
 /* About Section */
 .about {
-    background-color: #FFFFFF;
+    background-color: #FAF7ED;
     padding: 60px 40px;
     text-align: justify;
 }
@@ -64,6 +64,7 @@ blockquote {
     padding: 5px;
     color: #8B0000;
 }
+/*custom list style for education section*/
 .education-list {
     list-style-type: disc;
     padding-left: 20px;
