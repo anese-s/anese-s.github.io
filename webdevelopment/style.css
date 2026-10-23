@@ -105,3 +105,30 @@ footer {
     margin-right: 0;
     line-height: 1.8;
 }
+img.funny-pic {
+    max-width: 50%;
+    height: 300px;
+    display: block;
+    margin-left: 15%;
+    margin-right: 85%;
+    transform: translateX(-50%);
+    padding: 10px;
+    }
+img.funny-pic {
+    transition: 0.3s ease;
+}
+
+img.funny-pic:hover {
+    filter: brightness(90%);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+video.IMG_8342 {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #062E4B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
