@@ -132,3 +132,38 @@ video.IMG_8342 {
     border: 3px solid #062E4B;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+img.icons8-phone-50 {
+    width: 5px;
+    height: 5px;
+    padding: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+img.icons8-envelope-50 {
+    width: 5px;
+    height: 5px;
+    padding: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #062E4B;
+    padding: 10px;
+}
+footer p {
+    color: #FAF7ED;
+    font-size: 14px;
+    white-space: nowrap;
+     display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+} 
