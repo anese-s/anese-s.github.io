@@ -167,3 +167,96 @@ footer p {
     gap: 5px;
     white-space: nowrap;
 } 
+@media print {
+
+    @page {
+        margin: 1in;
+    }
+
+    /* Hide everything except required content */
+    header, h2, h3, h4, h5,
+    img, video, figure, a {
+        display: none !important;
+    }
+
+    /* Hide paragraphs that aren't required */
+    body > p {
+        display: none !important;
+    }
+
+    /* Show your introduction paragraph */
+    body > h2 + p {
+        display: block !important;
+        margin-right: 0;
+    }
+
+    /* Hide the existing footer copyright */
+    footer {
+        display: none !important;
+    }
+
+    /* Black serif font */
+    * {
+        color: black !important;
+        font-family: Georgia, serif !important;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 11pt;
+    }
+
+    h1 {
+        font-size: 20pt;
+        margin: 0 0 15px;
+    }
+
+    /* Display education vertically */
+    .education-list {
+        display: block !important;
+        margin: 10px 0;
+        padding-left: 20px;
+    }
+
+    .education-list li {
+        display: list-item !important;
+        margin-bottom: 10px;
+    }
+
+    .education-list p {
+        margin: 3px 0;
+        font-size: 11pt;
+    }
+    h1 {
+    font-size: 0;
+    margin-bottom: 15px;
+}
+
+h1::after {
+    content: "Anese Daniel";
+    font-size: 20pt;
+    font-family: Georgia, serif;
+    color: black;
+}
+footer {
+    display: block !important;
+    background: none !important;
+    padding: 0;
+    margin-top: 20px;
+}
+
+footer p {
+    display: block !important;
+    font-size: 11pt;
+    margin: 5px 0;
+}
+
+footer p:first-child {
+    display: none !important;
+}
+
+footer img {
+    display: none !important;
+}
+}
