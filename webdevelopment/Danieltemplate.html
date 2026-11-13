@@ -4,6 +4,12 @@
   Course: Web Development
   Description: My starter template for the web development project.
 -->
+<!-- 
+  Name: Anese Daniel
+  Date: September 11th, 2026
+  Course: Web Development
+  Description: My starter template for the web development project.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head><!-- logo and navigation will go here -->
@@ -15,23 +21,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Chango&family=Marko+One&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<header>
+<body> <!-- Body content goes here -->
     <nav>
          <img src="logo.png" alt="Your Site Logo" class="logopng"> 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="contact.html">Contact</a></li>
+         <span class="hamburger">&#9776;</span>
+           <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="contact.html">Contact</a></li>
+
+    <!-- Dropdown Menu -->
+    <li class="dropdown">
+        <button class="dropbtn" type="button">
+            More ▼
+        </button>
+        <ul class="dropdown-content">
             <li><a href="Reflection.html">Reflection</a></li>
         </ul>
+    </li>
+</ul>
     </nav>
-</header>
-<body> <!-- Body content goes here -->
-    <h1>Hello, World!</h1>
+</header> 
+<h1>Hello, World!</h1><header>  
 <footer>
     <p>&copy; 2026 My Portfolio. All rights reserved. Anese Daniel, 20th September 2026.</p>  
     <p><img src="icons8-phone-50.png" alt="Phone Icon">Phone: (123) 456-7890</p>
      <p> <img src="icons8-mail-50.png" alt="Email Icon">Email: anesed65@gmail.com</p>
 </footer>
-</body>  
+</body>
