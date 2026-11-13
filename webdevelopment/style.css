@@ -326,7 +326,49 @@ color: #800020;
         white-space: normal;
         margin-right: 0;
     }
+.about-grid {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+.about-intro,
+.about-experience,
+.about-video {
+    grid-column: 1 / -1;
+}
 
+@media screen and (max-width: 768px) {
+    .about-grid,
+    .about-education .education-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+    .about-intro,
+    .about-experience,
+    .about-video {
+        grid-column: auto;
+    }
+
+.about-photo .funny-pic {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    transform: none;
+}
+.about-education .education-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.about-education .education-list p {
+    margin-right: 0;
+}
     footer {
         flex-wrap: wrap;
     }
