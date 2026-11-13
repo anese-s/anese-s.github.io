@@ -86,3 +86,23 @@ nav .dropdown:focus-within .dropdown-content {
 .dropbtn:focus {
     outline: 2px solid white;
 }
+@media screen and (max-width: 768px) {
+
+    nav > ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    nav .dropdown-content,
+    nav .dropdown:hover .dropdown-content,
+    nav .dropdown:focus-within .dropdown-content {
+        display: none;
+    }
+    nav {
+    width: 100%;
+    box-sizing: border-box;
+}
+}
