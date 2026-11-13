@@ -315,6 +315,12 @@ color: #800020;
     font-family: "Marko One", serif;
     font-size: 16px;
 }
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: white;
+
+}
 @media screen and (max-width: 600px) {
     footer p {
         white-space: normal;
