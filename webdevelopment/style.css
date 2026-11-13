@@ -315,3 +315,13 @@ color: #800020;
     font-family: "Marko One", serif;
     font-size: 16px;
 }
+@media screen and (max-width: 600px) {
+    footer p {
+        white-space: normal;
+        margin-right: 0;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+}
