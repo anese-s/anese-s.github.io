@@ -105,6 +105,7 @@ footer {
     margin-right: 0;
     line-height: 1.8;
 }
+
 img.funny-pic {
     max-width: 50%;
     height: 300px;
@@ -256,7 +257,6 @@ footer p:first-child {
     display: none !important;
 }
 
-
 footer img {
     display: none !important;
 }
@@ -315,11 +315,17 @@ color: #800020;
     font-family: "Marko One", serif;
     font-size: 16px;
 }
+
 @media screen and (max-width: 600px) {
     footer p {
         white-space: normal;
         margin-right: 0;
     }
+
+    footer {
+        flex-wrap: wrap;
+    }
+}
 .about-grid {
     display: grid;
     grid-template-columns: 35% 1fr;
@@ -362,8 +368,4 @@ color: #800020;
 
 .about-education .education-list p {
     margin-right: 0;
-}
-    footer {
-        flex-wrap: wrap;
-    }
 }
