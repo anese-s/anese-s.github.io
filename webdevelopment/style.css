@@ -369,3 +369,61 @@ color: #800020;
 .about-education .education-list p {
     margin-right: 0;
 }
+/* Portfolio Gallery Grid Layout */
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.portfolio-section {
+    min-width: 0;
+    padding: 20px;
+    background-color: #FAF7ED;
+    border-radius: 10px;
+}
+.portfolio-section img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+/* Spacing between project images and descriptions */
+.portfolio-section img {
+    margin: 0 auto 20px;
+}
+.portfolio-section p {
+    margin-right: 0;
+}
+/* Mobile Portfolio Layout */
+
+@media (max-width: 600px) {
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .portfolio-section {
+        padding: 15px;
+    }
+
+    .portfolio-section h2 {
+        font-size: 20px;
+    }
+    
+
+}
+@media screen and (max-width: 600px) {
+    main > p {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+}
